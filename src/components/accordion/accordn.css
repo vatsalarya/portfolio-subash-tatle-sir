@@ -1,0 +1,11 @@
+.len{
+    width:80%
+}
+.accordion{
+    margin-left: 30px;
+}
+@media screen and (max-width: 1000px) {
+    .len{
+        width:95%
+    }
+}

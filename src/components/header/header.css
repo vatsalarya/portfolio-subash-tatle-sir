@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        display: block;
+        margin: auto;
+    } 
+}
+@media (max-width: 480) {
+    .wrapper {
+      display: none;
+    }
+  }
+.title{
+    display: block;
+    font-size:xxx-large;
+    color: brown;  
+}
+.profilePhoto{
+    border-radius: 100%;
+    height: 250px;
+}
+.space{
+    height: 15px;
+    background-color: pink;
+}
