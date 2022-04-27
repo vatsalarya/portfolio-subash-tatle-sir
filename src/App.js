@@ -16,7 +16,7 @@ function App() {
     <>
       <Router>
         {/* <NavbarComp /> */}
-        <Header name={data.Name} details={data.Details} />
+        <Header name={data.Contact.Name} details={data.Details} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/awards" element={<Awards awards={data.Awards}/>} />

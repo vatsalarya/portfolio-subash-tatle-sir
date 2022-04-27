@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ListGroup } from "react-bootstrap";
-import "./listData.css"
+
 export default function ListData(props) {
   return (
     <div className="lst" >

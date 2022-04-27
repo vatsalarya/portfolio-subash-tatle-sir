@@ -8,7 +8,7 @@ export default function Header(props) {
       <div className="wrapper">
         <img src="VIIT-Pune-Logo.webp" alt="viitLogo"/>
         <div className="discription">
-          <h2 className="title">{props.name}</h2>
+          <h1>{props.name}</h1>
           {props.details.map((detail,i) => {
             return <p key={i}>{detail}</p>;
           })}

@@ -1,24 +1,5 @@
 .contents{
     display: flex;
-    /* padding: 20px 100px; */
-    align-items: center;
-    justify-content: space-between;
-    /* justify-content: space-between; */
-    /* flex-grow: 1; */
-    margin-left: 50px;
-}
-
-.title{
-    display: block;
-    font-size:xxx-large;
-    color: brown;  
-}
-/* .discription{
-    width: 800px;
-} */
-
-.discription
-.profilePhoto{
-    border-radius: 100%;
-    height: 250px;
+    /* align-items: center;  */
+    justify-content: space-around;
 }

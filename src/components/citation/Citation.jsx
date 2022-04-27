@@ -5,7 +5,7 @@ export default function Citation(props) {
     <div>
       <div className="contents">
         <div className="discription">
-          <h4 className="title">Citations</h4>
+          <h1 className="title">Citations</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
