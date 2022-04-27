@@ -18,7 +18,7 @@ function App() {
         {/* <NavbarComp /> */}
         <Header name={data.Contact.Name} details={data.Details} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home objective={data.Objective} data={data}/>} />
           <Route path="/awards" element={<Awards awards={data.Awards}/>} />
           <Route path="/profile" element={<Profile education={data.Education} experience={data.Experience}/>} />
           <Route path="/responsibilities" element={<Responsibilities responsibilities={data.Responsibilities}/>} />
